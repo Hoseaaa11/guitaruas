@@ -18,14 +18,14 @@ class CampTableSeeder extends Seeder
         $camps = [
             [
                 'title' => 'Guitar Electric',
-                'slug' => 'Gretsch G5420T',
+                'slug' => 'Gretsch',
                 'price' => 800,
                 // 'created_at' => date('Y-m-d H:i:s', time()),
                 // 'updated_at' => date('Y-m-d H:i:s', time()),
             ],
             [
                 'title' => 'Guitar Classic',
-                'slug' => 'Yamaha SLG200S',
+                'slug' => 'Yamaha',
                 'price' => 400,
                 // 'created_at' => date('Y-m-d H:i:s', time()),
                 // 'updated_at' => date('Y-m-d H:i:s', time()),

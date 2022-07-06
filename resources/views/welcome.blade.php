@@ -116,7 +116,7 @@
                                     <div class="clear"></div>
                                     <div class="divider"></div>
                                 </div>                            
-                                    <a href="{{route('checkout')}}" class="btn btn-master btn-primary w-100 mt-3">
+                                    <a href="{{route('checkout.create', 'Gretsch')}}" class="btn btn-master btn-primary w-100 mt-3">
                                         Pick This Guitar
                                     </a>
                                 </p>
@@ -155,7 +155,7 @@
                                     <div class="divider"></div>
                                 </div>                            
                                 <p>
-                                    <a href="{{route('checkout')}}" class="btn btn-master btn-secondary w-100 mt-3">
+                                    <a href="{{route('checkout.create', 'Yamaha')}}" class="btn btn-master btn-secondary w-100 mt-3">
                                         First Buy
                                     </a>
                                 </p>
