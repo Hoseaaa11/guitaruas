@@ -6,7 +6,7 @@ Hi {{$checkout->User->name}}
 Thank you for buying this <b>{{$checkout->Camp->title}}</b>, please see payment instruction by click the button below.
 
 @component('mail::button', ['url' => route('dashboard')])
-Dashboard
+My Guitars
 @endcomponent
 
 Thanks,<br>

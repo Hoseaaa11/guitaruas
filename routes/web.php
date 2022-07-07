@@ -52,6 +52,7 @@ Route::middleware(['auth'])->group(function (){
         Route::post('checkout/{checkout}', [AdminCheckout::class, 'update'])->name('checkout.update');
     });
 
+
 });
 
 require __DIR__.'/auth.php';
